@@ -34,7 +34,7 @@ html {
     top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-    width: 400px;
+    width: 250px;
     margin-right: 90px;
 
 
@@ -73,7 +73,7 @@ body {
 
 .vl {
   border-left: 2px solid white;
-  height: 1000px;
+  height: 600%;
     right: 20px;
     position: absolute;
 }
