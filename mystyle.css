@@ -10,6 +10,7 @@ html {
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 
 }
 
@@ -28,12 +29,13 @@ html {
     color: #fff;
     text-decoration: none;
     display: block;
-    margin: auto;
     right: 0;
     position: fixed;
     top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+    width: 400px;
+    margin-right: 90px;
 
 
 
@@ -44,14 +46,27 @@ a {
     color: #fff;
     display: block;
     font-size: 20px;
-    margin-bottom: 30px;
-    margin-right: 70px;
-    opacity: 0.7;
+    height: 80px;
+    opacity: 0.8;
+    transition: font 0.3s ease;
+    text-align: right;
+    -ms-transform: translateY(50%);
+  transform: translateY(50%);
 
 }
 
 a:hover {
     opacity: 0.9;
     font-size: 30px;
-    margin: 0;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+body {
+  -ms-overflow-style: none;
+}
+
