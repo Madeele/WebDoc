@@ -36,8 +36,15 @@ html {
   transform: translateY(-50%);
     width: 300px;
     margin-right: 90px;
+    font-family: BAHNSCHRIFT;
 
 
+
+}
+h1 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
 
 }
 
@@ -76,4 +83,9 @@ body {
   height: 566%;
     right: 20px;
     position: absolute;
+}
+
+@font-face {
+    font-family: BAHNSCHRIFT;
+    src: url('BAHNSCHRIFT.ttf');
 }
