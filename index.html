@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <meta name="description" content="">
-    <meta name=”keywords” content=””>
+    <title>NØGLSMED</title>
+    <meta name="description" content="sdghjfg">
+    <meta name=”keywords” content=”keys,leather, ”>
     <link rel="stylesheet" href="mystyle.css">
 </head>
-<body>
 
-</body>
-</html>
+<body>
+    <div class="navigation">
+        <nav class="navbar">
+            <a href="#">MAIN PAGE</a>
+            <a href="#">OWNER'S STORY</a>
+            <a href="#">BAZAR VEST </a>
+            <a href="#">CONTACT</a>
+            <a href="#">OFFER</a>
+        </nav>
+    </div>
+
+    <img class="background" src="images/woman.jpg">
+    <img class="background" src="images/keys.jpg">
+    <img class="background" src="images/mech.jpg">
+    <img class="background" src="images/boxes.jpg">
+    <img class="background" src="images/doll.jpg">
+
+    <script>
+    const gra = function(min, max) {
+    return Math.random() * (max - min) + min;
+}
+const init = function(){
+    let items = document.querySelectorAll('section');
+    for (let i = 0; i < items.length; i++){
+        items[i].style.background = randomColor({luminosity: 'light'});
+    }
+    cssScrollSnapPolyfill()
+}
+init();</script>
+</body></html>
