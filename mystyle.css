@@ -1,0 +1,11 @@
+#scene{
+    overflow: hidden;
+}
+.backgroundImage{
+    max-width: 110%;
+    overflow: hidden;
+    right: 10%;
+}
+.layers{
+    margin-top: -400px;
+}

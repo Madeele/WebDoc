@@ -1,1 +1,31 @@
-<h1>Hello World!</h1>
+<head>
+    <title>Tries</title>
+<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+</head>
+<body>
+    <main>
+        <div id="scene">
+        <img class="backgroundImage" data-depth="0.05" alt="background picture" src="files/bg_1.png">
+        <div class="layers" data-depth="0.1"> <img src="files/sometext.png"> </div>
+        <div class="layers" data-depth="0.2"><img src="files/sometext2.png"></div>
+        <div class="layers" data-depth="0.3"><img src="files/sometext3.png"></div>
+        </div>
+        
+        
+        
+        
+        
+    </main>
+    
+	<script src="../parallax.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+</body>
