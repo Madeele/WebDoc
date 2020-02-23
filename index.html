@@ -21,21 +21,27 @@
     </div>
 
     <img id="1" class="background" src="images/woman.jpg">
+    <div class="vl"></div>
     <img id="2" class="background" src="images/keys.jpg">
     <img id="3" class="background" src="images/mech.jpg">
-    <img class="background" src="images/boxes.jpg">
-    <img class="background" src="images/doll.jpg">
+    <img id="4" class="background" src="images/boxes.jpg">
+    <img id="5" class="background" src="images/doll.jpg">
+
 
     <script>
-    const gra = function(min, max) {
-    return Math.random() * (max - min) + min;
-}
-const init = function(){
-    let items = document.querySelectorAll('section');
-    for (let i = 0; i < items.length; i++){
-        items[i].style.background = randomColor({luminosity: 'light'});
-    }
-    cssScrollSnapPolyfill()
-}
-init();</script>
-</body></html>
+        const gra = function(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+        const init = function() {
+            let items = document.querySelectorAll('section');
+            for (let i = 0; i < items.length; i++) {
+                items[i].style.background = randomColor({
+                    luminosity: 'light'
+                });
+            }
+            cssScrollSnapPolyfill()
+        }
+        init();
+    </script>
+</body>
+</html>

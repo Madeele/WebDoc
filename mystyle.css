@@ -70,3 +70,10 @@ body {
   -ms-overflow-style: none;
 }
 
+
+.vl {
+  border-left: 2px solid white;
+  height: 1000px;
+    right: 20px;
+    position: absolute;
+}
