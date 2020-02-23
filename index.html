@@ -19,32 +19,42 @@
             <a href="#5">OFFER</a>
         </nav>
     </div>
-<div class="vl"></div>
-   <div>
-   <div>
-   <h1>TITLE</h1>
-    <img id="1" class="background" src="images/woman.jpg"></div>
-   <div>
-   <img id="2" class="background" src="images/keys.jpg"></div>
-    <img id="3" class="background" src="images/mech.jpg">
-    <img id="4" class="background" src="images/boxes.jpg">
-    <img id="5" class="background" src="images/doll.jpg">
+    <div class="vl"></div>
+    <div>
+        <div>
+
+            <img id="1" class="background" src="images/woman.jpg"></div>
+        <div class="first">
+            <h1>STORY OF THE<br>OWNER</h1>
+            <img id="2" class="background" src="images/keys.jpg">
+        </div>
+        <div>
+            <h1>STORY OF THE<br>OWNER</h1>
+            <img id="3" class="background" src="images/mech.jpg">
+        </div>
+        <div>
+            <h1>STORY OF THE<br>OWNER</h1>
+            <img id="4" class="background" src="images/boxes.jpg">
+        </div>
+        <div>
+        <h1>STORY OF THE<br>OWNER</h1>
+        <img id="5" class="background" src="images/doll.jpg">
+        </div>
     </div>
 </body>
 <script>
-        const gra = function(min, max) {
-            return Math.random() * (max - min) + min;
+    const gra = function(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+    const init = function() {
+        let items = document.querySelectorAll('section');
+        for (let i = 0; i < items.length; i++) {
+            items[i].style.background = randomColor({
+                luminosity: 'light'
+            });
         }
-        const init = function() {
-            let items = document.querySelectorAll('section');
-            for (let i = 0; i < items.length; i++) {
-                items[i].style.background = randomColor({
-                    luminosity: 'light'
-                });
-            }
-            cssScrollSnapPolyfill()
-        }
-        init();
-    </script>
-    <script src="js.js"></script>
-</html>
+        cssScrollSnapPolyfill()
+    }
+    init();
+</script>
+<script src="js.js"></script></html>
