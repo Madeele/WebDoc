@@ -163,5 +163,16 @@ body {
     margin-bottom: -2px;
     z-index: -100;
 }
+p {
+position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 400px;
+    right: 25%;
+    font-size: 1.2vw;
+    text-align: right;
+width: 40%;
+}
 
 /*****PROGRESS BAR****/
