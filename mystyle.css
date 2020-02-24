@@ -130,3 +130,7 @@ body {
 
 
 
+
+#video {
+    overflow: hidden;
+}
