@@ -168,7 +168,7 @@ position: absolute;
     color: white;
     font-family: BAHNSCHRIFT;
     display: block;
-    margin-top: 400px;
+    margin-top: 450px;
     right: 25%;
     font-size: 1.2vw;
     text-align: right;
@@ -176,3 +176,16 @@ width: 40%;
 }
 
 /*****PROGRESS BAR****/
+
+.quote {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 400px;
+    right: 25%;
+    font-size: 1.6vw;
+    text-align: right;
+width: 60%;
+
+}
