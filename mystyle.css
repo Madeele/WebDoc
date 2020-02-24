@@ -6,6 +6,7 @@
     border: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
@@ -34,16 +35,16 @@ html {
     right: 0;
     position: fixed;
     top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 300px;
     margin-right: 90px;
     font-family: BAHNSCHRIFT;
-    z-index: 1;
 
 
 
 }
+
 h1 {
     position: absolute;
     color: white;
@@ -54,6 +55,7 @@ h1 {
     font-size: 8vw;
     text-align: right;
 }
+
 h2 {
     position: absolute;
     color: white;
@@ -64,6 +66,7 @@ h2 {
     font-size: 8vw;
     text-align: left;
 }
+
 h3 {
     position: absolute;
     color: white;
@@ -74,8 +77,9 @@ h3 {
     font-size: 2vw;
     text-align: left;
 }
+
 h4 {
-     position: absolute;
+    position: absolute;
     color: white;
     font-family: BAHNSCHRIFT;
     display: block;
@@ -92,7 +96,7 @@ h4 {
     z-index: 1;
 }
 a {
-   text-decoration: none;
+    text-decoration: none;
     color: #fff;
     display: block;
     font-size: 1.3vw;
@@ -101,7 +105,7 @@ a {
     transition: font 0.3s ease;
     text-align: right;
     -ms-transform: translateY(50%);
-  transform: translateY(50%);
+    transform: translateY(50%);
 
 }
 
@@ -112,21 +116,20 @@ a:hover {
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 /* Hide scrollbar for IE and Edge */
 body {
-  -ms-overflow-style: none;
+    -ms-overflow-style: none;
 }
 
 
 .vl {
-  border-left: 2px solid white;
-  height: 566%;
+    border-left: 2px solid white;
+    height: 566%;
     right: 20px;
     position: absolute;
-    z-index: 1;
 }
 
 @font-face {
@@ -136,7 +139,7 @@ body {
 
 .prlximg{
     margin-top: 500px;
-    margin-left: 100px;
+    margin-left: 50px;
     max-width: 50%;
 }
 .second{
@@ -149,11 +152,16 @@ body {
     margin-top: 380px;
 }
 
-
-
-
-
-
-#video {
-    overflow: hidden;
+#myVideo {
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    scroll-snap-align: start;
+    object-fit: cover;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    z-index: -100;
 }
+
+/*****PROGRESS BAR****/
