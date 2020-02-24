@@ -20,10 +20,12 @@
         </nav>
     </div>
     <main>
-        <div class="vl"></div>
+        <div class="vl" id="myBar"></div>
         <div>
             <div>
-               <img id="1" class="background" src="images/woman.jpg">
+               <video autoplay muted loop id="myVideo">
+  <source src="video.mp4" type="video/mp4">
+</video>
             </div>
             <div>
                 <h1>STORY OF THE<br>OWNER</h1>
@@ -44,6 +46,17 @@
         </div>
     </main>
 </body>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
 <script>
     const gra = function(min, max) {
         return Math.random() * (max - min) + min;
