@@ -88,6 +88,36 @@ h4 {
     font-size: 8vw;
     text-align: left;
 }
+h5 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 100px;
+    right: 25%;
+    font-size: 8vw;
+    text-align: right;
+}
+h6 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 200px;
+    right: 30%;
+    font-size: 8vw;
+    text-align: right;
+}
+h7 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 300px;
+    right: 35%;
+    font-size: 8vw;
+    text-align: right;
+}
 
 #1 {
     z-index: 2;
@@ -159,15 +189,18 @@ body {
 }
 
 #myVideo {
-    width: 100%;
+    width: 105%;
     height: 100%;
     right: 0;
     bottom: 0;
     scroll-snap-align: start;
     object-fit: cover;
-    margin-top: -2px;
-    margin-bottom: -2px;
     z-index: -100;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    scroll-snap-align: start;
+    margin-top: -30px;
+    margin-bottom: -20px;
 }
 
 p {
@@ -244,24 +277,6 @@ p {
     text-align: left;
     width: 40%;
 }
-
-.bigger {
-
-}
-
-#myBtn {
-    position: absolute;
-    color: white;
-    font-family: BAHNSCHRIFT;
-    display: block;
-    margin-top: 500px;
-    right: 25%;
-    font-size: 1.2vw;
-    text-align: right;
-    width: 40%;
-    background-color: transparent;
-}
-#more {display: none;}
 
 .quote4 {
     position: absolute;
