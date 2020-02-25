@@ -337,10 +337,10 @@ p {
     font-family: BAHNSCHRIFT;
     display: block;
     margin-top: 550px;
-    right: 35%;
+    right: 45%;
     font-size: 1.6vw;
     text-align: left;
-    width: 60%;
+    width: 50%;
 }
 
 .p3 {
@@ -348,12 +348,15 @@ p {
     color: white;
     font-family: BAHNSCHRIFT;
     display: block;
-    margin-top: 100px;
-    right: 54%;
+    margin-top: 200px;
+    right: 55%;
     font-size: 1.2vw;
     text-align: left;
-    width: 40%;
+    width: 20%;
 }
+
+/**
+**/
 
 .quote4 {
     position: absolute;
@@ -404,4 +407,76 @@ p {
     scroll-snap-align: start;
     margin-top: -30px;
     margin-bottom: -20px;
+}
+
+.p5 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 50px;
+    right: 75%;
+    font-size: 3vw;
+    text-align: left;
+    width: 20%;
+}
+
+.p7 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 150px;
+    right: 75%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 20%;
+}
+
+.p8 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 150px;
+    right: 55%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 20%;
+}
+
+.p9 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 300px;
+    right: 75%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 20%;
+}
+
+.pp3 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 200px;
+    right: 75%;
+    font-size: 1.2vw;
+    text-align: left;
+    width: 20%;
+}
+
+.ps3 {
+    position: absolute;
+    color: white;
+    font-family: BAHNSCHRIFT;
+    display: block;
+    margin-top: 350px;
+    right: 75%;
+    font-size: 1.2vw;
+    text-align: left;
+    width: 20%;
 }
