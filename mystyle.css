@@ -75,9 +75,9 @@ h3 {
     color: white;
     font-family: BAHNSCHRIFT;
     display: block;
-    margin-top: 200px;
-    right: 72%;
-    font-size: 4vw;
+    margin-top: 50px;
+    right: 60%;
+    font-size: 8vw;
     text-align: left;
 }
 
@@ -130,10 +130,10 @@ h8 {
     color: white;
     font-family: BAHNSCHRIFT;
     display: block;
-    right: 5%;
-    font-size: 6vw;
+    right: -10%;
+    font-size: 7vw;
     text-align: left;
-    margin-top: -70px;
+    margin-top: -80px;
     width: 60%;
 }
 /********************************************************/
@@ -355,16 +355,13 @@ p {
     width: 20%;
 }
 
-/**
-**/
-
 .quote4 {
     position: absolute;
     color: white;
     font-family: BAHNSCHRIFT;
     display: block;
-    margin-top: 400px;
-    right: 35%;
+    margin-top: 500px;
+    right: 33%;
     font-size: 2vw;
     text-align: left;
     width: 60%;
