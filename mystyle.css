@@ -67,6 +67,35 @@ h2 {
     text-align: left;
 }
 
+.keyhole{
+    position: fixed;
+    width: 10%;
+    height: 15%;
+    left: 45%;
+    top: 42.5%;
+    animation-name: pulsing;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pulsing{
+    from{width: 10%; height: 15%; left: 45%; top: 42.5%;}
+    to{width: 12%; height: 18%; left:  44%; top: 41%;}
+}
+
+.transform{
+  -webkit-transition: all 2s ease;  
+  -moz-transition: all 2s ease;  
+  -o-transition: all 2s ease;  
+  -ms-transition: all 2s ease;  
+  transition: all 2s ease;
+}
+.grow{
+    background-color: white;
+}
+
 h3 {
     position: absolute;
     color: white;
@@ -155,6 +184,11 @@ a {
     transform: translateY(50%);
 
 }
+#btn{
+    position: absolute;
+    top 60%;
+    left: 50%;
+}
 
 a:hover {
     opacity: 1;
@@ -170,7 +204,13 @@ body::-webkit-scrollbar {
 body {
     -ms-overflow-style: none;
 }
-
+.landingScreen{
+    position: fixed;
+    width: 150%;
+    height: 150%;
+    background-color: black;
+    z-index: 3;
+}
 
 .vl {
     border-left: 2px solid white;

@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="mystyle.css">
 
 <body>
+    
+    <div class="landingScreen transform">
+    <img src="images/Union%201.svg" class="keyhole transform">
+    <button id="btn">CLick me</button>
+    </div>
+    
+    
     <div class="navigation">
         <nav class="navbar">
             <a href="#1">MAIN PAGE</a>
@@ -21,8 +28,8 @@
     <main>
         <div class="vl"></div>
         <div>
-            <div id="scene">
-                <img id="1" data-depth="0.05" class="background" src="images/woman.jpg">
+            <div data-relative-input="true" id="scene">
+               <img id="1" data-depth="0.05" class="background" src="images/woman.jpg">
                 <img class="fourth prlximg" data-depth="0.4" src="parallax_imagefragm/second.png">
                 <img class="third prlximg" data-depth="0.3" src="parallax_imagefragm/third.png">
                 <img class="second prlximg" data-depth="0.2" src="parallax_imagefragm/fourth.png">
@@ -109,4 +116,8 @@
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
 
-</script>
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
