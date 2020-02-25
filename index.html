@@ -10,9 +10,9 @@
 
 <body>
     
-    <div class="landingScreen transform">
+    <div id="landingScreen" class="transform">
     <img src="images/Union%201.svg" class="keyhole transform">
-    <button id="btn">CLick me</button>
+    <button onClick="landingScreen()" id="btn">INITIALIZE THE EXPERIENCE</button>
     </div>
     
     
@@ -115,9 +115,5 @@
     // Pretty simple huh?
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
-
-	// Pretty simple huh?
-	var scene = document.getElementById('scene');
-	var parallax = new Parallax(scene);
-
 	</script>
+    <script src="landingScreen.js"></script>

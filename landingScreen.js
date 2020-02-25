@@ -1,3 +1,5 @@
-document.getElementById('btn').addEventListener('click', function () {
-  document.querySelector('.landingScreen').classList.add('grow');
-});
+
+function landingScreen() {
+  var element = document.getElementById("landingScreen");
+  element.classList.add("disappear");
+}
