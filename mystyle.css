@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
 
 }
-
+/**************************ALL BACKGROUNDS*********************/
 .background {
     width: 105%;
     height: 100%;
@@ -28,7 +28,7 @@ html {
 
 
 }
-
+/**********************NAVIGATION************************/
 .navbar {
     position: absolute;
     color: #fff;
@@ -45,6 +45,7 @@ html {
     z-index: 1;
 }
 
+/***************** TITLES FOR BACKGROUNDS*************************/
 h1 {
     position: absolute;
     color: white;
@@ -67,26 +68,7 @@ h2 {
     text-align: left;
 }
 
-#keyhole{
-    position: fixed;
-    width: 10%;
-    height: 15%;
-    left: 45%;
-    top: 42.5%;
-    animation-name: pulsing;
-    animation-iteration-count: infinite;
-    animation-duration: 1s;
-    animation-direction: alternate;
-    animation-timing-function: ease-in;
-}
 
-@keyframes pulsing{
-    from{width: 10%; height: 15%; left: 45%; top: 42.5%;}
-    to{width: 12%; height: 18%; left:  44%; top: 41%;}
-}
-.grow{
-    background-color: white;
-}
 
 h3 {
     position: absolute;
@@ -154,6 +136,39 @@ h8 {
     margin-top: -70px;
     width: 60%;
 }
+/********************************************************/
+#keyhole {
+    position: fixed;
+    width: 10%;
+    height: 15%;
+    left: 45%;
+    top: 42.5%;
+    animation-name: pulsing;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pulsing {
+    from {
+        width: 10%;
+        height: 15%;
+        left: 45%;
+        top: 42.5%;
+    }
+
+    to {
+        width: 12%;
+        height: 18%;
+        left: 44%;
+        top: 41%;
+    }
+}
+
+.grow {
+    background-color: white;
+}
 
 #1 {
     z-index: 2;
@@ -176,7 +191,8 @@ a {
     transform: translateY(50%);
 
 }
-#btn{
+
+#btn {
     position: absolute;
     top: 50%;
     left: 33.333%;
@@ -192,7 +208,7 @@ a {
     transition: .5s;
 }
 
-#btn:hover{
+#btn:hover {
     border: solid 5px white;
     width: 255px;
     height: 75px;
@@ -216,7 +232,8 @@ body::-webkit-scrollbar {
 body {
     -ms-overflow-style: none;
 }
-#landingScreen{
+
+#landingScreen {
     position: fixed;
     width: 150%;
     height: 150%;
@@ -224,7 +241,8 @@ body {
     z-index: 3;
     transition-duration: 1.5s;
 }
-.disappear{
+
+.disappear {
     opacity: 0;
     visibility: hidden;
 }
@@ -260,20 +278,7 @@ body {
     margin-top: 380px;
 }
 
-#myVideo {
-    width: 105%;
-    height: 100%;
-    right: 0;
 
-    scroll-snap-align: start;
-    object-fit: cover;
-    z-index: -100;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    scroll-snap-align: start;
-    margin-top: -30px;
-    margin-bottom: -20px;
-}
 
 p {
     position: absolute;
@@ -287,7 +292,7 @@ p {
     width: 40%;
 }
 
-/*****PROGRESS BAR****/
+/**************************ARTICLES*******************/
 
 .quote {
     position: absolute;
@@ -375,10 +380,23 @@ p {
     text-align: left;
     width: 40%;
 }
-
+/**************PLAY ICON AND VIDEO*********************/
 .play {
-     position: absolute;
+    position: absolute;
     margin-top: 550px;
     right: 45%;
     width: 120px;
+}
+#myVideo {
+    width: 105%;
+    height: 100%;
+    right: 0;
+    scroll-snap-align: start;
+    object-fit: cover;
+    z-index: -100;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    scroll-snap-align: start;
+    margin-top: -30px;
+    margin-bottom: -20px;
 }
