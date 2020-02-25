@@ -10,20 +10,18 @@
 
 <body>
     <audio id="unlock">
-            <source src="audio/unlock.mp3" type="audio/mpeg">
-            Unlock sound cannot be played or it is not supported.
-        </audio>
+        <source src="audio/unlock.mp3" type="audio/mpeg">
+        Unlock sound cannot be played or it is not supported.
+    </audio>
     <audio id="ambient">
-            <source src="audio/ambient.mp3" type="audio/mpeg">
-            Unlock sound cannot be played or it is not supported.
-        </audio>
+        <source src="audio/ambient.mp3" type="audio/mpeg">
+        Unlock sound cannot be played or it is not supported.
+    </audio>
     <div id="landingScreen" class="transform">
         <img id="keyhole" src="images/Union%201.svg">
         <button onClick="landingScreen()" id="btn">INITIALIZE THE EXPERIENCE</button>
-        
     </div>
-
-
+    </div>
     <div class="navigation">
         <nav class="navbar">
             <a href="#1">HOME</a>
@@ -31,6 +29,7 @@
             <a href="#3">BAZAR VEST </a>
             <a href="#4">CONTACT</a>
             <a href="#5">OFFER</a>
+            <button class="sound" onclick="muted()" type="button"><img src="images/Subtraction%203.png"></button>
         </nav>
     </div>
     <main>
@@ -47,7 +46,7 @@
                 <h5>FRIENDLY</h5><br>
                 <h6>TRUSTFUL</h6> <br>
                 <h7>RESPECTFUL</h7>
-                <button class="play" onclick="playPause()" type="button"><img src="images/Subtraction%201.png"></button>
+                <button class="play" onclick="playPause()" type="button"><img src="images/Subtraction%202.png"></button>
                 <video controls autoplay muted loop id="myVideo">
                     <source src="video.mp4" type="video/mp4">
                 </video>
@@ -89,16 +88,17 @@
                     Services
                 </p>
 
-                    <p class="p7">Production of :<br><br></p>
-                    <p class="pp3">
+                <p class="p7">Production of :<br><br></p>
+                <p class="pp3">
                     -the car keys<br>
                     -the house keys<br>
-                        -the office keys<br><br></p>
-                    <p class="p8">This include also : <br><br></p>
-                <p class="p3">-the key duplication<br></p><p/>
-                    <br>
+                    -the office keys<br><br></p>
+                <p class="p8">This include also : <br><br></p>
+                <p class="p3">-the key duplication<br></p>
+                <p />
+                <br>
                 <p class="p9"> Other :<br><br></p>
-                   <p class="ps3"> -shoe repairment<br>
+                <p class="ps3"> -shoe repairment<br>
                     -key rings
                 </p>
                 <img id="5" class="background" src="images/doll.jpg">
@@ -129,5 +129,18 @@
     var parallax = new Parallax(scene);
 
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        const options = {};
+        let slider = new Cachu(document.querySelector('.cachu__container'), options);
+        slider.run();
+
+    });
+
+</script>
 <script src="landingScreen.js"></script>
 <script src="playbutton.js"></script>
+<script src="playsound.js"></script>
+
+</html>

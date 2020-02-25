@@ -14,6 +14,7 @@ html {
     scroll-behavior: smooth;
 
 }
+
 /**************************ALL BACKGROUNDS*********************/
 .background {
     width: 105%;
@@ -28,6 +29,7 @@ html {
 
 
 }
+
 /**********************NAVIGATION************************/
 .navbar {
     position: absolute;
@@ -136,6 +138,7 @@ h8 {
     margin-top: -80px;
     width: 60%;
 }
+
 /********************************************************/
 #keyhole {
     position: fixed;
@@ -380,11 +383,12 @@ p {
     text-align: left;
     width: 40%;
 }
+
 /**************PLAY ICON AND VIDEO*********************/
 .play {
 
     margin-top: 550px;
-    right: 53%;
+    right: 50%;
     max-width: 50px;
     background-color: transparent;
     z-index: 2;
@@ -392,6 +396,7 @@ p {
     cursor: pointer;
 
 }
+
 #myVideo {
     width: 105%;
     height: 100%;
@@ -476,4 +481,16 @@ p {
     font-size: 1.2vw;
     text-align: left;
     width: 20%;
+}
+
+
+.sound {
+    margin-top: 100px;
+    right: -23%;
+    background-color: transparent;
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+    position: fixed;
+    width:
 }
