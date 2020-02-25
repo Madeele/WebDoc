@@ -9,9 +9,18 @@
     <link rel="stylesheet" href="mystyle.css">
 
 <body>
+    <audio id="unlock">
+            <source src="audio/unlock.mp3" type="audio/mpeg">
+            Unlock sound cannot be played or it is not supported.
+        </audio>
+    <audio id="ambient">
+            <source src="audio/ambient.mp3" type="audio/mpeg">
+            Unlock sound cannot be played or it is not supported.
+        </audio>
     <div id="landingScreen" class="transform">
         <img id="keyhole" src="images/Union%201.svg">
         <button onClick="landingScreen()" id="btn">INITIALIZE THE EXPERIENCE</button>
+        
     </div>
 
 
@@ -38,7 +47,7 @@
                 <h5>FRIENDLY</h5><br>
                 <h6>TRUSTFUL</h6> <br>
                 <h7>RESPECTFUL</h7>
-                <img onclick="playPause()" type="button" src="images/Subtraction%201.png" class="play">
+                <img onClick="playPause()" src="images/Subtraction%201.png" class="play">
                 <video controls autoplay muted loop id="myVideo">
                     <source src="video.mp4" type="video/mp4">
                 </video>
