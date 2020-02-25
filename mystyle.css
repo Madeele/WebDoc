@@ -382,10 +382,15 @@ p {
 }
 /**************PLAY ICON AND VIDEO*********************/
 .play {
-    position: absolute;
+
     margin-top: 550px;
-    right: 45%;
-    width: 120px;
+    right: 53%;
+    max-width: 50px;
+    background-color: transparent;
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+
 }
 #myVideo {
     width: 105%;
