@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="mystyle.css">
 
 <body>
-    <div></div>
     <div id="landingScreen" class="transform">
     <img id="keyhole" src="images/Union%201.svg">
     <button onClick="landingScreen()" id="btn">INITIALIZE THE EXPERIENCE</button>
     </div>
-    
-    
+
+
     <div class="navigation">
         <nav class="navbar">
             <a href="#1">HOME</a>
@@ -29,7 +28,7 @@
         <div class="vl"></div>
         <div>
             <div data-relative-input="true" id="scene">
-               <img id="1" data-depth="0.05" class="background" src="images/woman.jpg">
+                <img id="1" data-depth="0.05" class="background" src="images/woman.jpg">
                 <img class="fourth prlximg" data-depth="0.4" src="parallax_imagefragm/second.png">
                 <img class="third prlximg" data-depth="0.3" src="parallax_imagefragm/third.png">
                 <img class="second prlximg" data-depth="0.2" src="parallax_imagefragm/fourth.png">
@@ -39,8 +38,8 @@
                 <h5>FRIENDLY</h5><br>
                 <h6>TRUSTFUL</h6> <br>
                 <h7>RESPECTFUL</h7>
-                <img src="images/Subtraction%201.png" class="play">
-                <video autoplay muted loop id="myVideo">
+                <img onclick="playPause()" type="button" src="images/Subtraction%201.png" class="play">
+                <video controls autoplay muted loop id="myVideo">
                     <source src="video.mp4" type="video/mp4">
                 </video>
             </div>
@@ -116,5 +115,7 @@
     // Pretty simple huh?
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
-	</script>
-    <script src="landingScreen.js"></script>
+
+</script>
+<script src="landingScreen.js"></script>
+<script src="playbutton.js"></script>
