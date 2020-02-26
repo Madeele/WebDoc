@@ -294,7 +294,7 @@ p {
     margin-top: 500px;
     right: 25%;
     font-size: 1.2vw;
-    text-align: left;
+    text-align: right;
     width: 40%;
 }
 
@@ -318,7 +318,7 @@ p {
     color: white;
     font-family: BAHNSCHRIFT;
     display: block;
-    margin-top: 400px;
+    margin-top: 450px;
     right: 21%;
     font-size: 2.5vw;
     text-align: left;
@@ -330,8 +330,8 @@ p {
     color: white;
     font-family: BAHNSCHRIFT;
     display: block;
-    margin-top: 500px;
-    right: 25%;
+    margin-top: 600px;
+    right: 45%;
     font-size: 1.2vw;
     text-align: left;
     width: 50%;
